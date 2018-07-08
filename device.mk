@@ -74,6 +74,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CMActions \
     libjni_CMActions
+	
+# Camera Metadata Printer
+PRODUCT_PACKAGES += \
+	get_offsets
 
 # Display
 PRODUCT_AAPT_CONFIG := normal
